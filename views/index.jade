@@ -2,12 +2,12 @@ extends layout
 
 block content
 	div.container
-	h1 Happy Birthday!
+	h1.white-script Happy Birthday!
 	div.media
 		a.pull-left(href='#')
 			img.img-polaroid.media-object(src='images/righton.jpg')
 		div.media-body
-			h5.media-heading Like, totally come to SoCal!
+			h3.white-script.media-heading Like, totally come to SoCal!
 	div#sdPhotos.carousel.slide
 		ol.carousel-indicators
 			li(data-target='#sdPhotos', data-slide-to='0').active
@@ -25,42 +25,44 @@ block content
 			div.item.carousel-height.active
 				img(src='images/1.jpg').img-polaroid.carousel
 				div.carousel-caption
-					h4 We'll go to an old school amusement park
+					h4.white-script We'll go to an old school amusement park
 			div.item.carousel-height
 				img(src='images/2.jpg').img-polaroid.carousel
 				div.carousel-caption
-					h4 Get the view from the top
+					h4.white-script Get the view from the top
 			div.item.carousel-height 
 				img(src='images/3.jpg').img-polaroid.carousel
 				div.carousel-caption
-					h4 See a decent sunset or two
+					h4.white-script See a decent sunset or two
 			div.item.carousel-height  
 				img(src='images/4.jpg').img-polaroid.carousel
 				div.carousel-caption
-					h4 Have you ever tried Din Tai Fung? I think you might like it
+					h4.white-script Have you ever tried Din Tai Fung? I think you might like it
 			div.item.carousel-height 
 				img(src='images/5.jpg').img-polaroid.carousel
 				div.carousel-caption
-					h4 Indulge in chocolate cake, San Diego style
+					h4.white-script Indulge in chocolate cake, San Diego style
 			div.item.carousel-height  
 				img(src='images/6.jpg').img-polaroid.carousel
 				div.carousel-caption
-					h4 Seriously, the sunsets don't suck 
+					h4.white-script Seriously, the sunsets don't suck 
 			div.item.carousel-height 
 				img(src='images/7.jpg').img-polaroid.carousel
 				div.carousel-caption
-					h4 Snorkel with Garibaldis
+					h4.white-script Snorkel with Garibaldis
 			div.item.carousel-height  
 				img(src='images/8.jpg').img-polaroid.carousel
 				div.carousel-caption
-					h4 Go on a meerkat safari
+					h4.white-script Go on a meerkat safari
 			div.item.carousel-height 
 				img(src='images/9.jpg').img-polaroid.carousel
 				div.carousel-caption
-					h4 Get the best tacos this side of Mexico
+					h4.white-script Get the best tacos this side of Mexico
 			div.item.carousel-height 
-				img(src='images/9.jpg').img-polaroid.carousel
+				img(src='images/10.jpg').img-polaroid.carousel
 				div.carousel-caption
-					h4 And picnic with the pines
+					h4.white-script And picnic with the pines
 		a(href='#sdPhotos', data-slide='prev').carousel-control.left &lsaquo;
 		a(href='#sdPhotos', data-slide='next').carousel-control.right &rsaquo;
+	div
+		button#more.btn.btn-info.large-font Let's go!
